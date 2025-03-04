@@ -6,6 +6,7 @@ import img1 from "../images/6.png";
 import img2 from "../images/7.png";
 import img3 from "../images/8.png";
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const slides = [
     {
@@ -186,7 +187,7 @@ const Home = () => {
                                 {/* Start Single features */}
                                 <div className="single-features">
                                     <div className="signle-icon">
-                                        <i className="icofont icofont-ambulance-cross" />
+                                        <i class="bi bi-hospital-fill"></i>
                                     </div>
                                     <h3>Emergency Help</h3>
                                     <p>Get help in the time of Emergency with just one phone call.</p>
@@ -197,7 +198,7 @@ const Home = () => {
                                 {/* Start Single features */}
                                 <div className="single-features">
                                     <div className="signle-icon">
-                                        <i className="icofont icofont-medical-sign-alt" />
+                                    <i class="bi bi-file-earmark-medical-fill"></i>
                                     </div>
                                     <h3>Smart Weekly reports</h3>
                                     <p>Keep track of your health and improve faster.</p>
@@ -208,7 +209,7 @@ const Home = () => {
                                 {/* Start Single features */}
                                 <div className="single-features last">
                                     <div className="signle-icon">
-                                        <i className="icofont icofont-stethoscope" />
+                                        <i class="bi bi-prescription2"></i>
                                     </div>
                                     <h3>Medical Treatment</h3>
                                     <p>AI equipped sevices along with testified profesional doctors.</p>
@@ -223,10 +224,10 @@ const Home = () => {
                 <div id="fun-facts" className="fun-facts section overlay">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-3 col-md-6 col-12">
+                            <div className="col-lg-4 col-md-6 col-12">
                                 {/* Start Single Fun */}
                                 <div className="single-fun">
-                                    <i className="icofont icofont-home" />
+                                    {/* <i className="icofont icofont-home" /> */}
                                     <div className="content">
                                         <span className="counter">3468</span>
                                         <p>Hospital Rooms</p>
@@ -234,10 +235,10 @@ const Home = () => {
                                 </div>
                                 {/* End Single Fun */}
                             </div>
-                            <div className="col-lg-3 col-md-6 col-12">
+                            <div className="col-lg-4 col-md-6 col-12">
                                 {/* Start Single Fun */}
                                 <div className="single-fun">
-                                    <i className="icofont icofont-user-alt-3" />
+                                    {/* <i className="icofont icofont-user-alt-3" /> */}
                                     <div className="content">
                                         <span className="counter">557</span>
                                         <p>Specialist Doctors</p>
@@ -245,24 +246,13 @@ const Home = () => {
                                 </div>
                                 {/* End Single Fun */}
                             </div>
-                            <div className="col-lg-3 col-md-6 col-12">
+                            <div className="col-lg-4 col-md-6 col-12">
                                 {/* Start Single Fun */}
                                 <div className="single-fun">
-                                    <i className="icofont-simple-smile" />
+                                    {/* <i className="icofont-simple-smile" /> */}
                                     <div className="content">
                                         <span className="counter">4379</span>
                                         <p>Happy Patients</p>
-                                    </div>
-                                </div>
-                                {/* End Single Fun */}
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-12">
-                                {/* Start Single Fun */}
-                                <div className="single-fun">
-                                    <i className="icofont icofont-table" />
-                                    <div className="content">
-                                        {/* <span class="counter">32</span> */}
-                                        <p><b>Book appointment</b> according to your prefrence</p>
                                     </div>
                                 </div>
                                 {/* End Single Fun */}
