@@ -5,16 +5,7 @@ import logo from "../images/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-red-500 text-white p-4">
-      {/* <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Blood Donation</h1>
-        <ul className="flex space-x-4">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/find-donor">Find Donor</Link></li>
-          <li><Link to="/donate">Donate</Link></li>
-          <li><Link to="/requests">Requests</Link></li>
-        </ul>
-      </div> */}
+    <nav className="bg-red-500 text-white">
       {/* Header Area */}
       <header className="header">
         {/* Topbar */}
