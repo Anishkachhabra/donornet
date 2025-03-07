@@ -198,7 +198,7 @@ const Home = () => {
                                 {/* Start Single features */}
                                 <div className="single-features">
                                     <div className="signle-icon">
-                                    <i class="bi bi-file-earmark-medical-fill"></i>
+                                        <i class="bi bi-file-earmark-medical-fill"></i>
                                     </div>
                                     <h3>Smart Weekly reports</h3>
                                     <p>Keep track of your health and improve faster.</p>
@@ -228,6 +228,7 @@ const Home = () => {
                                 {/* Start Single Fun */}
                                 <div className="single-fun">
                                     {/* <i className="icofont icofont-home" /> */}
+                                    <i className="bi bi-person"></i>
                                     <div className="content">
                                         <span className="counter">3468</span>
                                         <p>Hospital Rooms</p>
@@ -239,6 +240,7 @@ const Home = () => {
                                 {/* Start Single Fun */}
                                 <div className="single-fun">
                                     {/* <i className="icofont icofont-user-alt-3" /> */}
+                                    <i className="bi bi-file-medical"></i>
                                     <div className="content">
                                         <span className="counter">557</span>
                                         <p>Specialist Doctors</p>
@@ -250,6 +252,7 @@ const Home = () => {
                                 {/* Start Single Fun */}
                                 <div className="single-fun">
                                     {/* <i className="icofont-simple-smile" /> */}
+                                    <i className="bi bi-emoji-laughing-fill"></i>
                                     <div className="content">
                                         <span className="counter">4379</span>
                                         <p>Happy Patients</p>
@@ -262,6 +265,74 @@ const Home = () => {
                 </div>
                 {/*/ End Fun-facts */}
             </div>
+
+            {/* Start Why choose */}
+            <section className="why-choose section" id="about us">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="section-title">
+                                <h2>We Offer Different Services To Improve Your Health</h2>
+                                {/* <img src="img/section-img.png" alt="#" /> */}
+                                {/* <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-6 col-12">
+                            {/* Start Choose Left */}
+                            <div className="choose-left">
+                                <h3>Who We Are</h3>
+                                <p>Welcome to HealthHub, where you can explore a wealth of information on various aspects of
+                                    health and well-being. Our mission is to empower you with knowledge to make informed
+                                    decisions about your health. Whether you're looking for tips on maintaining a healthy
+                                    lifestyle, insights into common health conditions, or guidance on preventive healthcare,
+                                    you'll find it all here. </p>
+                                <p>Here are some prominent services provided by us:
+                                </p>
+                                <div className="row">
+                                    <div className="col-lg-6">
+                                        <ul className="list">
+                                            <li><i className="bi bi-caret-right" />One-on-one interaction with the doctor. </li>
+                                            <li><i className="bi bi-caret-right" />24/7 availability of services.</li>
+                                            <li><i className="bi bi-caret-right" />AI based checkup.</li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <ul className="list">
+                                            <li><i className="bi bi-caret-right" />Diagnosis of skin infections and x-ray scans.
+                                            </li>
+                                            <li><i className="bi bi-caret-right" />Weekly AI based report.</li>
+                                            <li><i className="bi bi-caret-right" />Improve with ealthHub</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* End Choose Left */}
+                        </div>
+                        <div className="col-lg-6 col-12">
+                            {/* Start Choose Rights */}
+                            <div className="choose-right">
+                                <div className="video-image">
+                                    {/* Video Animation */}
+                                    {/* <div class="promo-video">
+								<div class="waves-block">
+									<div class="waves wave-1"></div>
+									<div class="waves wave-2"></div>
+									<div class="waves wave-3"></div>
+								</div>
+							</div> */}
+                                    {/*/ End Video Animation */}
+                                    {/* <a href="https://www.youtube.com/watch?v=RFVXy6CRVR4"
+								class="video video-popup mfp-iframe"><i class="fa fa-play"></i></a> */}
+                                </div>
+                            </div>
+                            {/* End Choose Rights */}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/*/ End Why choose */}
 
 
             {/* Footer */}

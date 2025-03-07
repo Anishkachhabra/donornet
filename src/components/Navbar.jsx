@@ -94,11 +94,6 @@ const Navbar = () => {
                   </div>
                   {/*/ End Main Menu */}
                 </div>
-                {/* <div className="col-lg-2 col-12">
-                  <div className="get-quote">
-                    <a href="#appointment" className="btn">Book Appointment</a>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
