@@ -14,19 +14,19 @@ const Navbar = () => {
             <div className="row">
               <div className="col-lg-6 col-md-5 col-12">
                 {/* Contact */}
-                <ul className="top-link">
+                {/* <ul className="top-link">
                   <li><a href="#">About</a></li>
                   <li><a href="#">Doctors</a></li>
                   <li><a href="#">Contact</a></li>
                   <li><a href="#">FAQ</a></li>
-                </ul>
+                </ul> */}
                 {/* End Contact */}
               </div>
               <div className="col-lg-6 col-md-7 col-12">
                 {/* Top Contact */}
                 <ul className="top-contact">
-                  <li><i className="bi bi-telephone-fill" />+880 1234 56789</li>
-                  <li><i className="bi bi-envelope-fill" /><a href="mailto:support@yourmail.com">healthhub@gmail.com</a></li>
+                  <li><i className="bi bi-telephone-fill" />+910 1234 56789</li>
+                  <li><i className="bi bi-envelope-fill" /><a href="mailto:donornet@gmail.com">donornet@gmail.com</a></li>
                 </ul>
                 {/* End Top Contact */}
               </div>
@@ -61,15 +61,14 @@ const Navbar = () => {
                         </li>
                         <li><a href="#">Services <i className="icofont-rounded-down" /></a>
                           <ul className="dropdown">
-                            <li><a href="404.html">One-to-One online sessions</a></li>
-                            <li><a href="404.html">Schedule Appointment</a></li>
-                            <li><a href="404.html">Scan Your Reports</a></li>
-                            <li><a href="404.html">AI assistant</a></li>
-                            <li><a href="404.html">Instant Feedback</a></li>
-                            <li><a href="404.html">Smart Weekly Reports</a></li>
+                            <li><a href="http://localhost:3000/donate">Register as a donor</a></li>
+                            <li><a href="http://localhost:3000/find-donor">Find Donors</a></li>
+                            <li><a href="http://localhost:3000/hospital">Hospital Registration</a></li>
+                            <li><a href="http://localhost:3000/hospital/dashboard">View Blood Stock</a></li>
+                            <li><a href="404.html">AI Assistant</a></li>
                           </ul>
                         </li>
-                        <li><a href="#">Specialists<i className="icofont-rounded-down" /></a>
+                        {/* <li><a href="#">Specialists<i className="icofont-rounded-down" /></a>
                           <ul className="dropdown">
                             <li><a href="404.html">General Treatment</a></li>
                             <li><a href="404.html">ENT</a></li>
@@ -78,9 +77,9 @@ const Navbar = () => {
                             <li><a href="404.html">Psychologists</a></li>
                             <li><a href="404.html">Dermatologists</a></li>
                           </ul>
-                        </li>
-                        <li><a href="signin.html">Sign In</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        </li> */}
+                        <li><a href="http://localhost:3000/#about-us">Who We Are?</a></li>
+                        <li><a href="http://localhost:3000/#footer">Contact Us</a></li>
                         <li><a href="#">Find Us <i className="icofont-rounded-down" /></a>
                           <ul className="dropdown">
                             <li><a href="https://www.facebook.com/login/"><i className="icofont-facebook" /> Facebook</a></li>

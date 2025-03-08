@@ -11,21 +11,21 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 const slides = [
     {
         image: img1,
-        heading: <>Your Health, <span className="highlight">Our Priority</span></>,
+        heading: <>Saving People, <span className="highlight">One Drop</span><br></br>at a Time</>,
         description: "We offer top-notch medical services tailored to your needs.",
-        button1: { text: "Get Appointment", link: "#appointment" },
-        button2: { text: "Learn More", link: "#about-us" }
+        button1: { text: "Register as a Donor", link: "http://localhost:3000/donate" },
+        button2: { text: "Learn More", link: "http://localhost:3000/#about-us" }
     },
     {
         image: img2,
-        heading: <>Advanced <span className="highlight">Medical Solutions</span></>,
+        heading: <>Once a blood donor,<br></br><span className="highlight">Always a Lifesaver</span></>,
         description: "We use cutting-edge technology to improve healthcare outcomes.",
         button1: { text: "Explore Services", link: "#services" },
         button2: { text: "Contact Us", link: "#contact" }
     },
     {
         image: img3,
-        heading: <>Compassionate <span className="highlight">Care</span></>,
+        heading: <>Give Blood, <span className="highlight">Share Life</span></>,
         description: "Our experienced professionals are here to support you.",
         button1: { text: "Find a Doctor", link: "#doctors" },
         button2: { text: "Book Now", link: "#book" }
@@ -89,10 +89,10 @@ const Home = () => {
                                         <div className="text">
                                             <h1>{slide.heading}</h1>
                                             <p>{slide.description}</p>
-                                            <div className="button">
+                                            {/* <div className="button">
                                                 <a href={slide.button1.link} className="butn">{slide.button1.text}</a>
                                                 <a href={slide.button2.link} className="butn">{slide.button2.text}</a>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -267,7 +267,7 @@ const Home = () => {
             </div>
 
             {/* Start Why choose */}
-            <section className="why-choose section" id="about us">
+            <section className="why-choose section" id="about-us">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

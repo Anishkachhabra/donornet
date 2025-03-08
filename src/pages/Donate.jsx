@@ -64,7 +64,13 @@ function Donate() {
       </div>
 
       <div className="card shadow p-4 mb-5">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={(e) => {
+          e.preventDefault();
+          localStorage.setItem('donorData', JSON.stringify(formData));
+          setIsSubmitted(true);
+          setFormData(initialState); // Reset form after submission
+          setTimeout(() => setIsSubmitted(false), 3000);
+        }}>
           {/* Personal Information Section */}
           <h2 className="text-danger mb-3">Personal Information</h2>
           
@@ -140,12 +146,6 @@ function Donate() {
                 <input
                   type="email"
                   className="form-control"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  placeholder="Email Address"
-                  required
                 />
                 <label htmlFor="email">Email Address</label>
               </div>
