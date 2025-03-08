@@ -12,9 +12,7 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer">
                   <h2>About Us</h2>
-                  <p>Welcome to HealthHub, where you can explore a wealth of information on various aspects of
-                    health and well-being. Our mission is to empower you with knowledge to make informed
-                    decisions about your health.</p>
+                  <p>DonorNet is a NGO which works for the beterment of the people throughout the World. People can get blood according to their circumstances within their location preference.</p>
                   {/* Social */}
                   <ul className="social">
                     <li><a href="#"><i className="bi bi-facebook" /></a></li>
@@ -38,8 +36,7 @@ const Footer = () => {
                         </li>
                         <li><a href="#"><i className="bi bi-caret-right" aria-hidden="true" />Services</a>
                         </li>
-                        <li><a href="#"><i className="bi bi-caret-right" aria-hidden="true" />Our
-                          Cases</a></li>
+                        
                         <li><a href="#"><i className="bi bi-caret-right" aria-hidden="true" />Other
                           Links</a></li>
                       </ul>
@@ -51,8 +48,7 @@ const Footer = () => {
                         </li>
                         <li><a href="#"><i className="bi bi-caret-right" aria-hidden="true" />Testimonials</a></li>
                         <li><a href="#"><i className="bi bi-caret-right" aria-hidden="true" />FAQ</a></li>
-                        <li><a href="#"><i className="bi bi-caret-right" aria-hidden="true" />Contact
-                          Us</a></li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -61,19 +57,19 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer">
                   <h2>Open Hours</h2>
-                  <p>Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor incididunt.</p>
+                  <p>Our website operates 24/7 throughout the world without interrupts.</p>
                   <ul className="time-sidual">
-                    <li className="day">Monday - Fridayp <span>8.00-20.00</span></li>
+                  <h5 style={{textAlign: "left", paddingLeft: 70}}>Office Hours</h5>
+                    <li className="day">Monday - Friday<span>8.00-20.00</span></li>
                     <li className="day">Saturday <span>9.00-18.30</span></li>
-                    <li className="day">Monday - Thusday <span>9.00-15.00</span></li>
+                    <li className="day">Sunday <span>9.00-15.00</span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer">
                   <h2>Newsletter</h2>
-                  <p>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit
-                    amet, consectetur adipisicing elit,</p>
+                  <p>Subscribe to our newsletter to get allour news in your inbox.</p>
                   <form action="mail/mail.php" method="get" target="_blank" className="newsletter-inner">
                     <input name="email" placeholder="Email Address" className="common-input" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'" required type="email" />
                     <button className="button"><i className="bi bi-send" /></button>
@@ -90,7 +86,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-12 col-md-12 col-12">
                 <div className="copyright-content">
-                  <p>© Copyright 2023 | All Rights Reserved by <a href="#" target="_blank">healthhub.com</a>
+                  <p>© Copyright 2023 | All Rights Reserved by <a href="#" target="_blank">DonorNet.com</a>
                   </p>
                 </div>
               </div>

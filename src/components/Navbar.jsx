@@ -54,7 +54,7 @@ const Navbar = () => {
                   <div className="main-menu">
                     <nav className="navigation">
                       <ul className="nav menu">
-                        <li className="active"><a href="index.html">Home </a>
+                        <li className="active"><a href="http://localhost:3000">Home </a>
                           {/* <ul class="dropdown">
                       <li><a href="index.html">Home Page 1</a></li>
                     </ul> */}

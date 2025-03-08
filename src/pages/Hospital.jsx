@@ -3,6 +3,8 @@ import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Login from '../components/Login';
 import Register from '../components/Register';
 import Dashboard from '../components/Dashboard';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function Hospital() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -17,34 +19,39 @@ function Hospital() {
   };
 
   return (
-    <div style={styles.container}>
-      <Routes>
-        <Route 
-          path="login" 
-          element={
-            isAuthenticated ? 
-              <Navigate to="../dashboard" replace /> : 
-              <Login onLogin={handleLogin} />
-          } 
-        />
-        <Route 
-          path="register" 
-          element={
-            isAuthenticated ? 
-              <Navigate to="../dashboard" replace /> : 
-              <Register onRegister={handleRegister} />
-          } 
-        />
-        <Route 
-          path="dashboard" 
-          element={
-            isAuthenticated ? 
-              <Dashboard /> : 
-              <Navigate to="../login" replace />
-          } 
-        />
-        <Route path="" element={<Navigate to="login" replace />} />
-      </Routes>
+
+    <div>
+      <Navbar />
+      <div style={styles.container}>
+        <Routes>
+          <Route
+            path="login"
+            element={
+              isAuthenticated ?
+                <Navigate to="../dashboard" replace /> :
+                <Login onLogin={handleLogin} />
+            }
+          />
+          <Route
+            path="register"
+            element={
+              isAuthenticated ?
+                <Navigate to="../dashboard" replace /> :
+                <Register onRegister={handleRegister} />
+            }
+          />
+          <Route
+            path="dashboard"
+            element={
+              isAuthenticated ?
+                <Dashboard /> :
+                <Navigate to="../login" replace />
+            }
+          />
+          <Route path="" element={<Navigate to="login" replace />} />
+        </Routes>
+      </div>
+      <Footer/>
     </div>
   );
 }

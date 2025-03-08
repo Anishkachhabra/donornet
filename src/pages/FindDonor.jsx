@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 // Simple Bootstrap version without Lucide icons, using Bootstrap Icons instead
 function FindDonor() {
@@ -74,7 +76,7 @@ function FindDonor() {
 
   return (
     <div className="bg-light min-vh-100">
-      <header className="bg-danger text-white py-3 shadow">
+      {/* <header className="bg-danger text-white py-3 shadow">
         <div className="container">
           <div className="d-flex align-items-center">
             <i className="bi bi-droplet-fill fs-3 me-2"></i>
@@ -82,7 +84,8 @@ function FindDonor() {
           </div>
           <p className="mt-1 mb-0">Connect with blood donors and hospitals near you</p>
         </div>
-      </header>
+      </header> */}
+      <Navbar />
 
       <main className="container py-4">
         <div className="card border-0 shadow-sm mb-4">
@@ -300,11 +303,7 @@ function FindDonor() {
         </div>
       </main>
       
-      <footer className="bg-white py-3 border-top mt-4">
-        <div className="container text-center text-muted small">
-          <p className="mb-0">© 2023 LifeLink Blood Donation Network | <a href="#" className="text-danger">Terms of Service</a> | <a href="#" className="text-danger">Privacy Policy</a></p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
